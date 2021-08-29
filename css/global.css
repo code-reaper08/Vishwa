@@ -1,0 +1,11 @@
+html,body {
+    margin: 0 auto;
+    height: 100%;
+    background-color:#13110f;
+    box-shadow: 0 0 200px #027b0b61 inset
+  }
+  
+  pre {
+    padding: 0;
+    margin: 0;
+  }
