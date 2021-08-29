@@ -2,30 +2,33 @@
   margin: 0 auto;
   min-height: 100%;
   width: 100%;
-  background: black;
+  /* background: black; */
+  background-image:radial-gradient( rgb(0 150 0 / 39%), black 120% );
 }
 
 @media (min-width: 400px) {
     .term {
         font-family: monospace;
-        color: #FFE459;
+        color: #ffffff;
         opacity: 0.8;
-        font-size: 2em;
+        font-size: 8em;
         overflow-y: auto;
         overflow-x: hidden;
         padding-top: 10px;
         padding-left: 20px;
+        text-shadow: 0 0 5px #C8C8C8;
       } 
 }
 .term {
   font-family: monospace;
-  color: #FFE459;
+  color: #ffffff;
   opacity: 0.8;
   font-size: 10px;
   overflow-y: auto;
   overflow-x: hidden;
   padding-top: 10px;
   padding-left: 20px;
+  text-shadow: 0 0 5px #C8C8C8;
 }
 
 .term:after {

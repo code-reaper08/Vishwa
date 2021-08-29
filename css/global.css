@@ -1,8 +1,9 @@
 html,body {
     margin: 0 auto;
     height: 100%;
-    background-color:#13110f;
-    box-shadow: 0 0 200px #027b0b61 inset
+    /* background-color:#13110f; */
+    /* box-shadow: 0 0 200px #027b0b61 inset; */
+    background-image:radial-gradient( rgb(0 150 0 / 39%), black 120% );
   }
   
   pre {
