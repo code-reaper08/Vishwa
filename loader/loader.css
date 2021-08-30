@@ -3,32 +3,31 @@
   min-height: 100%;
   width: 100%;
   /* background: black; */
-  background-image:radial-gradient( rgb(0 150 0 / 39%), black 120% );
+  background-image: radial-gradient(rgb(0 150 0 / 39%), black 120%);
 }
 
 @media (min-width: 400px) {
-    .term {
-        font-family: monospace;
-        color: #ffffff;
-        opacity: 0.8;
-        font-size: 8em;
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding-top: 10px;
-        padding-left: 20px;
-        text-shadow: 0 0 5px #C8C8C8;
-      } 
+  .term {
+    font-family: monospace;
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 2em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-shadow: 0 0 5px #c8c8c8;
+  }
 }
 .term {
   font-family: monospace;
   color: #ffffff;
   opacity: 0.8;
-  font-size: 10px;
   overflow-y: auto;
   overflow-x: hidden;
   padding-top: 10px;
   padding-left: 20px;
-  text-shadow: 0 0 5px #C8C8C8;
+  text-shadow: 0 0 5px #c8c8c8;
 }
 
 .term:after {
@@ -60,6 +59,33 @@
 /* normal css begins here */
 
 .u-max-full-width {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes scanline {
+  0% {
+    bottom: 100%;
+  }
+  80% {
+    bottom: 100%;
+  }
+  100% {
+    bottom: 0%;
+  }
+}
+.scanline {
+  width: 100%;
+  height: 100px;
+  z-index: 8;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.2) 10%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  opacity: 0.1;
+  position: absolute;
+  bottom: 100%;
+  animation: scanline 10s linear infinite;
 }
