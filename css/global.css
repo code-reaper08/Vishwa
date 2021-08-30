@@ -88,8 +88,6 @@ pre {
   #maincontent > div:nth-child(2) > img{
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
-    width: 250px;
-    height: auto;
   }
 }
 
