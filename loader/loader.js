@@ -3,7 +3,6 @@ var speed = 500; //Writing speed in milliseconds
 var text = 'sh vishwa_website.sh';
 
 var i = 0;
-
 runner();
 
 function runner() {
@@ -37,7 +36,7 @@ function feedbacker() {
     i++;
     textarea.append("[    " + count / 1000 + "] " + output[i] + "<br>");
   }
-  window.scrollTo(0, document.body.scrollHeight);  
+  window.scrollTo(0, document.body.scrollHeight); 
   i++;
   time = Math.floor(Math.random() * 4) + 1;
   count += time;
