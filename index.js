@@ -13,6 +13,10 @@ me.addEventListener('click', () => {
         title: 'Me.exe',
         background: '#01ba06',
         width: '400px',
+        top: 10,
+        bottom: 10,
+        left: 100,
+        right: 100,
         height: '400px',
         mount: meContent
     })
@@ -21,9 +25,13 @@ me.addEventListener('click', () => {
 Mywork.addEventListener('click', () => {
     const WorkBox = new WinBox({
         class: "crt",
-        title: 'Me.exe',
+        title: 'Mywork.exe',
         background: '#01ba06',
         width: '400px',
+        top: 10,
+        bottom: 10,
+        left: 100,
+        right: 100,
         height: '400px',
         mount: MyworkContent
     })
@@ -32,9 +40,13 @@ Mywork.addEventListener('click', () => {
 contact.addEventListener('click', () => {
     const contactBox = new WinBox({
         class: "crt",
-        title: 'Me.exe',
+        title: 'Contact.exe',
         background: '#01ba06',
         width: '400px',
+        top: 10,
+        bottom: 10,
+        left: 100,
+        right: 100,
         height: '400px',
         mount: contactContent
     })
