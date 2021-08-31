@@ -19,6 +19,12 @@ pre {
 #maincontent > div:nth-child(2) > img{
   border-radius: 50%;
   box-shadow: 2px 2px 2px black;
+  transition: ease-in-out 300ms;
+}
+#maincontent > div:nth-child(2) > img:hover{
+  /* filter: brightness(1.75); */
+  /* filter: invert(1); */
+  filter: hue-rotate(138deg)
 }
 
 #maincontent > div {
@@ -88,6 +94,12 @@ pre {
   #maincontent > div:nth-child(2) > img{
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
+    transition: ease-in-out 300ms;
+  }
+  #maincontent > div:nth-child(2) > img:hover{
+    /* filter: brightness(1.75); */
+    /* filter: invert(1); */
+    filter: hue-rotate(138deg)
   }
 }
 
@@ -111,14 +123,21 @@ pre {
     box-shadow: 2px 2px 2px black;
     width: 250px;
     height: auto;
+    transition: ease-in-out 300ms;
+  }
+  #maincontent > div:nth-child(2) > img:hover{
+    /* filter: brightness(1.75); */
+    /* filter: invert(1); */
+    filter: hue-rotate(138deg)
   }
 }
 .hidden {
   display: none;
 }
 .wb-body {
-  background-color: #182116;
+    background-color: #182116;
     color: #04ff05;
+    filter: brightness(1.65);
     text-shadow: 0px 0px 10px #00cd01;
 }
 #me-content {

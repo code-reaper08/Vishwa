@@ -9,7 +9,7 @@ const contactContent = document.querySelector('#contact-content');
 
 me.addEventListener('click', () => {
     const meBox = new WinBox({
-        class: "crt boom",
+        class: "crt",
         title: 'Me.exe',
         background: '#01ba06',
         width: '400px',
