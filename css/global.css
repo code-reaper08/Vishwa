@@ -4,6 +4,7 @@ body {
   height: 100%;
   background-image: url(../images/old-tv-frame-png-12-Transparent-Images.png),radial-gradient(rgb(3 255 3 / 35%), black 120%);
   background-position: center;
+  mix-blend-mode: normal;
   background-size: cover;
   background-repeat: no-repeat;
   /* background-image: radial-gradient(rgb(0 150 0 / 39%), black 120%); */
@@ -157,4 +158,7 @@ pre {
     padding-top: 10px;
     font-family: 'VT323';
     font-size: x-large;
+}
+#switch {
+  cursor: pointer;
 }

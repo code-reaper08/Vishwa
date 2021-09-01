@@ -7,6 +7,8 @@ const MyworkContent = document.querySelector('#Mywork-content');
 const contact = document.querySelector('#contact');
 const contactContent = document.querySelector('#contact-content');
 
+const switcher = document.getElementById('switch');
+
 // me.addEventListener('click', () => {
 //     const meBox = new WinBox({
 //         class: "crt",
@@ -152,3 +154,41 @@ function Mobresizer(x) {
   let mediaquery = window.matchMedia("(max-width: 390px)")
   Mobresizer(mediaquery) 
   mediaquery.addListener(Mobresizer)
+
+//   switcher
+
+// switcher.addEventListener('click', () => {
+//     const body = document.getElementsByTagName('body');
+//     const html = document.getElementsByTagName('html');
+//     console.log(html)
+//     body[0].style.mixBlendMode = "luminosity";
+//     body[0].style.transition = "ease-in-out 2s"
+//     html[0].style.mixBlendMode = "luminosity";
+//     html[0].style.transition = "ease-in-out 2s"
+
+// })
+
+switcher.addEventListener('click', () => {
+
+        // const body = document.getElementsByTagName('body');
+        // const html = document.getElementsByTagName('html');
+        // if ((body[0].style.mixBlendMode = "normal") && (html[0].style.mixBlendMode = "normal") ) {
+        //         console.log(html)
+        //         body[0].style.mixBlendMode = "luminosity";
+        //         body[0].style.transition = "ease-in-out 2s"
+        //         html[0].style.mixBlendMode = "luminosity";
+        //         html[0].style.transition = "ease-in-out 2s";
+        // }
+        // // else if ((body[0].style.mixBlendMode = "luminosity") && (html[0].style.mixBlendMode = "luminosity") ) {
+        // //     body[0].style.mixBlendMode = "normal";
+        // //     body[0].style.transition = "ease-in-out 2s"
+        // //     html[0].style.mixBlendMode = "normal";
+        // //     html[0].style.transition = "ease-in-out 2s";
+        // // } 
+        // else {
+        //     body[0].style.mixBlendMode = "screen";
+        //     body[0].style.transition = "ease-in-out 2s"
+        //     html[0].style.mixBlendMode = "screen";
+        //     html[0].style.transition = "ease-in-out 2s";
+        // }
+    })
