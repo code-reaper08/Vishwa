@@ -192,7 +192,3 @@ switcher.addEventListener('click', () => {
             html[0].style.transition = "ease-in-out 2s";
         }
     })
-
-    let num1 = prompt("Enter a number:");
-    let n = document.write(parseInt(num1)+1);
-    alert(typeof(n));
