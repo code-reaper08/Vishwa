@@ -155,19 +155,6 @@ function Mobresizer(x) {
   Mobresizer(mediaquery) 
   mediaquery.addListener(Mobresizer)
 
-//   switcher
-
-// switcher.addEventListener('click', () => {
-//     const body = document.getElementsByTagName('body');
-//     const html = document.getElementsByTagName('html');
-//     console.log(html)
-//     body[0].style.mixBlendMode = "luminosity";
-//     body[0].style.transition = "ease-in-out 2s"
-//     html[0].style.mixBlendMode = "luminosity";
-//     html[0].style.transition = "ease-in-out 2s"
-
-// })
-
 switcher.addEventListener('click', () => {
 
         const body = document.getElementsByTagName('body');
