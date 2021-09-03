@@ -64,7 +64,7 @@ pre {
 @media (min-width: 400px) {
   .nav-item {
     padding-right: 50px;
-    color: #ffffff;
+    color: #00cd01;
     font-family: "VT323", monospace;
     font-size: 30px;
     letter-spacing: 3px;
@@ -80,7 +80,7 @@ pre {
 @media (min-width: 750px) {
   .nav-item {
     padding-right: 50px;
-    color: #ffffff;
+    color: #00cd01;
     font-family: "VT323", monospace;
     font-size: xxx-large;
     letter-spacing: 3px;
@@ -107,7 +107,7 @@ pre {
 @media (max-width: 390px) {
   .nav-item {
     padding-right: 22px;
-    color: #ffffff;
+    color: #00cd01;
     font-family: "VT323", monospace;
     font-size: 17px;
     padding-right: 11px;
@@ -138,7 +138,7 @@ pre {
 }
 .wb-body {
   background-color: #182116;
-  color: #ffffff;
+  color: #00cd01;
   filter: brightness(1.65);
   text-shadow: 0px 0px 10px #00cd01;
 }
@@ -165,7 +165,7 @@ pre {
   font-family: "VT323", monospace;
   color: white;
 }
-
+/* 
 #contact-content > ol > li > a {
   color: white;
 }
@@ -179,7 +179,7 @@ pre {
 
 #Mywork-content > ul > li > a {
   color: white;
-}
+} */
 #skills-content {
   padding-left: 20px;
   padding-top: 10px;
