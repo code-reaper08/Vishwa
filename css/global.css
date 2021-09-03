@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   height: 100%;
   background-image: url(../images/old-tv-frame-png-12-Transparent-Images.png),
-    radial-gradient(rgb(3 255 3 / 27%), black 120%);
+    radial-gradient(rgb(3 255 3 / 35%), black 120%);
   background-position: center;
   mix-blend-mode: normal;
   background-size: cover;
@@ -64,7 +64,7 @@ pre {
 @media (min-width: 400px) {
   .nav-item {
     padding-right: 50px;
-    color: #00cd01;
+    color: #ffffff;
     font-family: "VT323", monospace;
     font-size: 30px;
     letter-spacing: 3px;
@@ -80,7 +80,7 @@ pre {
 @media (min-width: 750px) {
   .nav-item {
     padding-right: 50px;
-    color: #00cd01;
+    color: #ffffff;
     font-family: "VT323", monospace;
     font-size: xxx-large;
     letter-spacing: 3px;
@@ -107,7 +107,7 @@ pre {
 @media (max-width: 390px) {
   .nav-item {
     padding-right: 22px;
-    color: #00cd01;
+    color: #ffffff;
     font-family: "VT323", monospace;
     font-size: 17px;
     padding-right: 11px;
@@ -138,7 +138,7 @@ pre {
 }
 .wb-body {
   background-color: #182116;
-  color: #04ff05;
+  color: #ffffff;
   filter: brightness(1.65);
   text-shadow: 0px 0px 10px #00cd01;
 }
@@ -160,18 +160,32 @@ pre {
   font-family: "VT323";
   font-size: x-large;
 }
-#skills-content {
-  padding-left: 20px;
-  padding-top: 10px;
-  font-family: "VT323";
-  font-size: x-large;
-}
 #switch {
   cursor: pointer;
   font-family: "VT323", monospace;
   color: white;
 }
 
+#contact-content > ol > li > a {
+  color: white;
+}
+#contact-content > a {
+  color: white;
+}
+
+#me-content > a {
+  color: white;
+}
+
+#Mywork-content > ul > li > a {
+  color: white;
+}
+#skills-content {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "VT323";
+  font-size: x-large;
+}
 #skills-content > p > img {
   width: 50px;
   height: auto;
