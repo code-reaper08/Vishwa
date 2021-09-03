@@ -2,7 +2,8 @@ html,
 body {
   margin: 0 auto;
   height: 100%;
-  background-image: url(../images/old-tv-frame-png-12-Transparent-Images.png),radial-gradient(rgb(3 255 3 / 35%), black 120%);
+  background-image: url(../images/old-tv-frame-png-12-Transparent-Images.png),
+    radial-gradient(rgb(3 255 3 / 35%), black 120%);
   background-position: center;
   mix-blend-mode: luminosity;
   background-size: cover;
@@ -11,21 +12,21 @@ body {
 }
 ::selection {
   color: #566850;
-    background: #F6BB00;
+  background: #f6bb00;
 }
 pre {
   padding: 0;
   margin: 0;
 }
-#maincontent > div:nth-child(2) > img{
+#maincontent > div:nth-child(2) > img {
   border-radius: 50%;
   box-shadow: 2px 2px 2px black;
   transition: ease-in-out 300ms;
 }
-#maincontent > div:nth-child(2) > img:hover{
+#maincontent > div:nth-child(2) > img:hover {
   /* filter: brightness(1.75); */
   /* filter: invert(1); */
-  filter: hue-rotate(138deg)
+  filter: hue-rotate(138deg);
 }
 
 #maincontent > div {
@@ -64,43 +65,42 @@ pre {
   .nav-item {
     padding-right: 50px;
     color: #ffffff;
-    font-family: 'VT323', monospace;
+    font-family: "VT323", monospace;
     font-size: 30px;
     letter-spacing: 3px;
     text-shadow: 0px 0px 6px #00cd01;
   }
-  .nav-item:hover{
+  .nav-item:hover {
     text-decoration: underline;
     cursor: pointer;
     color: white;
     text-shadow: 0px 0px 16px white;
-
   }
 }
 @media (min-width: 750px) {
   .nav-item {
     padding-right: 50px;
     color: #ffffff;
-    font-family: 'VT323', monospace;
+    font-family: "VT323", monospace;
     font-size: xxx-large;
     letter-spacing: 3px;
     text-shadow: 0px 0px 6px #00cd01;
   }
-  .nav-item:hover{
+  .nav-item:hover {
     text-decoration: underline;
     cursor: pointer;
     color: white;
     text-shadow: 0px 0px 16px white;
   }
-  #maincontent > div:nth-child(2) > img{
+  #maincontent > div:nth-child(2) > img {
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
     transition: ease-in-out 300ms;
   }
-  #maincontent > div:nth-child(2) > img:hover{
+  #maincontent > div:nth-child(2) > img:hover {
     /* filter: brightness(1.75); */
     /* filter: invert(1); */
-    filter: hue-rotate(138deg)
+    filter: hue-rotate(138deg);
   }
 }
 
@@ -108,74 +108,84 @@ pre {
   .nav-item {
     padding-right: 22px;
     color: #ffffff;
-    font-family: 'VT323', monospace;
+    font-family: "VT323", monospace;
     font-size: 20px;
     letter-spacing: 3px;
     text-shadow: 0px 0px 6px #00cd01;
   }
-  .nav-item:hover{
+  .nav-item:hover {
     text-decoration: underline;
     cursor: pointer;
     color: white;
     text-shadow: 0px 0px 16px white;
   }
-  #maincontent > div:nth-child(2) > img{
+  #maincontent > div:nth-child(2) > img {
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
     width: 250px;
     height: auto;
     transition: ease-in-out 300ms;
   }
-  #maincontent > div:nth-child(2) > img:hover{
+  #maincontent > div:nth-child(2) > img:hover {
     /* filter: brightness(1.75); */
     /* filter: invert(1); */
-    filter: hue-rotate(138deg)
+    filter: hue-rotate(138deg);
   }
 }
 .hidden {
   display: none;
 }
 .wb-body {
-    background-color: #182116;
-    color: #ffffff;
-    filter: brightness(1.65);
-    text-shadow: 0px 0px 10px #00cd01;
+  background-color: #182116;
+  color: #ffffff;
+  filter: brightness(1.65);
+  text-shadow: 0px 0px 10px #00cd01;
 }
 #me-content {
   padding-left: 20px;
-    padding-top: 10px;
-    font-family: 'VT323';
-    font-size: x-large;
+  padding-top: 10px;
+  font-family: "VT323";
+  font-size: x-large;
 }
 #Mywork-content {
   padding-left: 20px;
-    padding-top: 10px;
-    font-family: 'VT323';
-    font-size: x-large;
+  padding-top: 10px;
+  font-family: "VT323";
+  font-size: x-large;
 }
 #contact-content {
   padding-left: 20px;
-    padding-top: 10px;
-    font-family: 'VT323';
-    font-size: x-large;
+  padding-top: 10px;
+  font-family: "VT323";
+  font-size: x-large;
 }
 #switch {
-    cursor: pointer;
-    font-family: 'VT323', monospace;
-    color: white;
-  }
-  
+  cursor: pointer;
+  font-family: "VT323", monospace;
+  color: white;
+}
+
 #contact-content > ol > li > a {
-    color: white;
+  color: white;
 }
 #contact-content > a {
-    color: white;
-  }
+  color: white;
+}
 
 #me-content > a {
-    color: white;
-  }
+  color: white;
+}
 
 #Mywork-content > ul > li > a {
-    color: white;
-  }
+  color: white;
+}
+#skills-content {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "VT323";
+  font-size: x-large;
+}
+#skills-content > p > img {
+  width: 50px;
+  height: auto;
+}
