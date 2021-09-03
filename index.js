@@ -155,21 +155,36 @@ function Mobresizer(x) {
   Mobresizer(mediaquery) 
   mediaquery.addListener(Mobresizer)
 
-switcher.addEventListener('click', () => {
+// switcher.addEventListener('click', () => {
 
-        const body = document.getElementsByTagName('body');
-        const html = document.getElementsByTagName('html');
-        if ((body[0].style.mixBlendMode === "normal")) {
-                console.log(html)
-                body[0].style.mixBlendMode = "luminosity";
-                body[0].style.transition = "ease-in-out 2s"
-                html[0].style.mixBlendMode = "luminosity";
-                html[0].style.transition = "ease-in-out 2s";
-        }
-        else {
-            body[0].style.mixBlendMode = "normal";
-            body[0].style.transition = "ease-in-out 2s"
-            html[0].style.mixBlendMode = "normal";
-            html[0].style.transition = "ease-in-out 2s";
-        }
-    })
+//         const body = document.getElementsByTagName('body');
+//         const html = document.getElementsByTagName('html');
+//         const head = document.getElementsByTagName('head')[0];
+//         if ((body[0].style.mixBlendMode === "normal")) {
+//                 console.log(html)
+//                 body[0].style.mixBlendMode = "luminosity";
+//                 body[0].style.transition = "ease-in-out 2s";
+
+//                 html[0].style.mixBlendMode = "luminosity";
+//                 html[0].style.transition = "ease-in-out 2s";
+//         }
+//         else {
+//             body[0].style.mixBlendMode = "normal";
+//             body[0].style.transition = "ease-in-out 2s"
+//             html[0].style.mixBlendMode = "normal";
+//             html[0].style.transition = "ease-in-out 2s";
+//         }
+//     })
+
+switcher.addEventListener('click', () => {
+    const csssheet = document.getElementById('normalcss');
+    if(csssheet.href.match("css/global.css")) {
+        csssheet.href = "css/mono_global.css";
+        document.getElementById('switch').innerText = "Want CRT"
+    }
+    else {
+        csssheet.href = "css/global.css";
+        document.getElementById('switch').innerText = "Want MonoChrome"
+
+    }
+})
