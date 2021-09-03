@@ -164,3 +164,18 @@ pre {
     font-family: 'VT323', monospace;
     color: white;
   }
+  
+#contact-content > ol > li > a {
+    color: white;
+}
+#contact-content > a {
+    color: white;
+  }
+
+#me-content > a {
+    color: white;
+  }
+
+#Mywork-content > ul > li > a {
+    color: white;
+  }
