@@ -172,23 +172,17 @@ switcher.addEventListener('click', () => {
 
         const body = document.getElementsByTagName('body');
         const html = document.getElementsByTagName('html');
-        if ((body[0].style.mixBlendMode = "normal") && (html[0].style.mixBlendMode = "normal") ) {
+        if ((body[0].style.mixBlendMode === "normal")) {
                 console.log(html)
                 body[0].style.mixBlendMode = "luminosity";
                 body[0].style.transition = "ease-in-out 2s"
                 html[0].style.mixBlendMode = "luminosity";
                 html[0].style.transition = "ease-in-out 2s";
         }
-        // else if ((body[0].style.mixBlendMode = "luminosity") && (html[0].style.mixBlendMode = "luminosity") ) {
-        //     body[0].style.mixBlendMode = "normal";
-        //     body[0].style.transition = "ease-in-out 2s"
-        //     html[0].style.mixBlendMode = "normal";
-        //     html[0].style.transition = "ease-in-out 2s";
-        // } 
         else {
-            body[0].style.mixBlendMode = "screen";
+            body[0].style.mixBlendMode = "normal";
             body[0].style.transition = "ease-in-out 2s"
-            html[0].style.mixBlendMode = "screen";
+            html[0].style.mixBlendMode = "normal";
             html[0].style.transition = "ease-in-out 2s";
         }
     })
