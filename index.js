@@ -7,6 +7,9 @@ const MyworkContent = document.querySelector('#Mywork-content');
 const contact = document.querySelector('#contact');
 const contactContent = document.querySelector('#contact-content');
 
+const skills = document.querySelector('#skills');
+const skillscontent  = document.querySelector('#skills-content');
+
 const switcher = document.getElementById('switch');
 
 // me.addEventListener('click', () => {
@@ -103,6 +106,21 @@ function Mobresizer(x) {
                 mount: contactContent
             })
         })
+
+        skills.addEventListener('click', () => {
+            const meBox = new WinBox({
+                class: "crt",
+                title: 'Me.exe',
+                background: '#01ba06',
+                width: '250px',
+                top: 10,
+                bottom: 10,
+                left: 5,
+                right: 5,
+                height: '400px',
+                mount: skillscontent
+            })
+        })
     } else {
         me.addEventListener('click', () => {
             const meBox = new WinBox({
@@ -146,6 +164,21 @@ function Mobresizer(x) {
                 right: 100,
                 height: '400px',
                 mount: contactContent
+            })
+        })
+
+        skills.addEventListener('click', () => {
+            const meBox = new WinBox({
+                class: "crt",
+                title: 'Skills.exe',
+                background: '#01ba06',
+                width: '400px',
+                top: 10,
+                bottom: 10,
+                left: 100,
+                right: 100,
+                height: '400px',
+                mount: skillscontent
             })
         })
     }
